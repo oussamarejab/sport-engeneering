@@ -1503,8 +1503,8 @@ a.btn-learn:hover {
 }
 
 .phonecall {
-    background: rgb(233, 220, 41);
-    color: rgb(70, 76, 235);
+    background: #e9dc29;
+    color: #464ceb;
     border-radius: 10px;
 }
 
@@ -1512,4 +1512,32 @@ a.btn-learn:hover {
     color: #fffdfd;
     background-color: #a42ed5;
     border-color: #ddd;
+}
+
+#who-should {
+    width: 80%;
+    margin: 20px auto;
+    text-align: center;
+    align-items: center;
+}
+
+#who-should .row div {
+    border: 1px solid;
+    text-align: center;
+    align-items: center;
+    height: 150px;
+    margin: 10px;
+    box-shadow: 10px 10px 5px #aaaaaa;
+    border-radius: 7px;
+    cursor: pointer;
+    background-image: linear-gradient(#22386F, #419cd551);
+    transition: all 1s ease;
+}
+
+#who-should .row div:hover {
+    transform: scale(1.1, 1.1);
+}
+
+#who-should .row div h4 {
+    color: black;
 }
