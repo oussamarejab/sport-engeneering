@@ -1515,10 +1515,14 @@ a.btn-learn:hover {
 }
 
 #who-should {
-    width: 80%;
+    max-width: 80%;
     margin: 20px auto;
     text-align: center;
     align-items: center;
+}
+
+#who-should .row {
+    margin: 10px auto !important;
 }
 
 #who-should .row div {
@@ -1526,16 +1530,18 @@ a.btn-learn:hover {
     text-align: center;
     align-items: center;
     height: 150px;
-    margin: 10px;
+    margin: 10px auto;
     box-shadow: 10px 10px 5px #aaaaaa;
     border-radius: 7px;
     cursor: pointer;
-    background-image: linear-gradient(#22386F, #419cd551);
+    background-image: linear-gradient(#8ec5dfc7, #6dcdf100);
     transition: all 1s ease;
+    padding: 30px;
 }
 
 #who-should .row div:hover {
-    transform: scale(1.1, 1.1);
+    transform: scale(1.0, 1.1);
+    background-color: #00aced;
 }
 
 #who-should .row div h4 {
